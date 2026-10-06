@@ -1,6 +1,8 @@
 import './App.css';
 import Labelalamat from './components/labelalamat';
 import Labelnama from './components/labelnama';
+import Button1 from './components/button1';
+
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
         <Labelnama name="Rizki" />
         <Labelnama name="Dewi" />
         <Labelalamat alamat="Jl. Raya No. 123" />
+        <Button1 />
       
     </div>
   );
